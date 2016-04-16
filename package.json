@@ -1,6 +1,6 @@
 {
   "name": "es2015-noop",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An ES2015 no operation module, the future is here.",
   "license": "MIT",
   "repository": "gillstrom/es2015-noop",
