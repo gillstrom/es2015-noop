@@ -1,0 +1,44 @@
+{
+  "name": "es2015-noop",
+  "version": "0.0.0",
+  "description": "An ES2015 no operation module, the future is here.",
+  "license": "MIT",
+  "repository": "gillstrom/es2015-noop",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "coveralls": "nyc ava && nyc report --reporter=text-lcov | coveralls",
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "arrow",
+    "empty",
+    "es",
+    "fn",
+    "func",
+    "function",
+    "no",
+    "no-op",
+    "noop",
+    "op",
+    "operation"
+  ],
+  "devDependencies": {
+    "ava": "*",
+    "coveralls": "^2.11.9",
+    "nyc": "^6.4.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
